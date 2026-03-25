@@ -44,11 +44,25 @@ grep -r "Status:" applications/*/README.md
 
 | File | Purpose |
 |------|---------|
+| `applications/nlnet-ngi0-commons-2026/draft.md` | **Cvrsvs Honorvm** — NLnet NGI0 Commons Fund application (deadline April 1, 2026). Governance engine extraction as open-source infrastructure. EUR 37,080, 11 milestones, 6 months. |
+| `strategy/2026-03-25-becoming-the-thing-roadmap.md` | Alpha → Omega institutional roadmap — 5 dimensions, execution timeline |
 | `strategy/2026-03-24-organvm-institutional-strategy-master.md` | Master strategy — the synthesis |
 | `strategy/2026-03-24-hybrid-org-structure-research.md` | 12 legal models analyzed |
 | `research/2026-03-24-organvm-grant-funding-landscape.md` | 40+ funding sources |
+| `research/2026-03-24-nlnet-application-research.md` | NLnet form fields, scoring criteria, critical requirements |
 | `research/2026-03-24-fiscal-sponsorship-research.md` | 13 fiscal sponsors compared |
 | `entity-formation/ip-policy.md` | Open-core organ-to-license mapping |
+
+## Cvrsvs Honorvm
+
+The extracted governance engine package. Named after the Roman *cursus honorum* — the sequential order of public offices. ORGANVM orthography: V for U.
+
+- **NLnet proposal name:** Cvrsvs Honorvm — Governance Engine for Multi-Repository Open-Source Ecosystems
+- **PyPI package:** `cvrsvs-honorvm`
+- **Source:** Extracted from `organvm-engine` governance subsystem (314 source files, ~73K lines)
+- **License:** Apache 2.0 (new package; existing engine is MIT)
+- **R&D question:** Can formal governance be declaratively specified as a portable open standard?
+- **Key deliverables:** Promotion state machine, dependency DAG validator, seed.yaml specification, publiccode.yml interop
 
 ## Application Identity Framing
 
@@ -66,5 +80,5 @@ Each funder sees ORGANVM through a different lens:
 
 - **This is not a personal repo.** It governs ORGANVM-the-system, not a person's career. Personal job/consulting applications remain in `4444J99/application-pipeline/`.
 - **Research docs are canonical here** but also mirrored in `organvm-corpvs-testamentvm/docs/` for the historical record.
-- **IRF items** for this repo use the `IRF-INST-NNN` prefix (14 items as of S37).
+- **IRF items** for this repo use the `IRF-INST-NNN` prefix (18 items as of S38).
 - **Deadlines are hard.** NLnet: April 1, 2026. Creative Capital: April 2, 2026.
