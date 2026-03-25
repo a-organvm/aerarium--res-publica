@@ -276,21 +276,28 @@ When all 17 criteria are met, the system exhibits the eight characteristics simu
 | Distribution Network | #13 | Organic inbound (MET) + tutorial + specification |
 | Operational Maturity | #2, #3, #4, #16 | Stranger test, baselines, validated runbooks, advisory board |
 
-### The Milestone Ladder
+### The Milestone Ladder — Gate-Based, Not Calendar-Based
 
-| Month | Target | Gate | Omega Impact |
-|-------|--------|------|-------------|
-| Apr 2026 | NLnet submitted, LLC formed, Sponsors live | Dual-entity operational | #5 strengthened, #9 initiated |
-| May 2026 | Cvrsvs Honorvm state machine extracted | Standalone module on PyPI-test | #12 surface created |
-| Jun 2026 | Full extraction complete, docs live | `pip install cvrsvs-honorvm` works | #2, #12, #14 |
-| Jul 2026 | Example project, first community event | Engine proven outside ORGANVM | #7, #11 |
-| Aug 2026 | arXiv paper submitted, FOSDEM proposal sent | Academic identity established | #14, #15 |
-| Sep 2026 | NSF POSE Phase I application | Federal grant pipeline | #5, #14 |
-| Oct 2026 | 3+ external contributions, 3+ feedback pieces | Community exists | #7 MET, #12 MET |
-| Nov 2026 | Soak test 30-day clean, stranger test ≥80% | Operational maturity proven | #1, #2, #3, #17 MET |
-| Dec 2026 | Revenue ≥ operating costs, runbooks validated | Sustainability demonstrated | #9, #10, #4, #16 MET |
-| Q1 2027 | NLnet/grant decision, FOSDEM talk delivered | Recognition achieved | #11, #14 MET |
-| Q2 2027 | Portfolio updated, all evidence documented | **OMEGA** | #15 MET → **17/17** |
+Work is measured in energy expenditure (agent sessions, human gates), not time. Only external deadlines are calendar-bound. Each gate opens when its conditions are true, not when a month arrives.
+
+| Gate | Conditions (what must be true) | Energy | Omega Impact | External Deadline |
+|------|-------------------------------|--------|-------------|-------------------|
+| **G0: SUBMITTED** | NLnet form submitted. ORCID registered. | 1 human session | #5 strengthened | **April 1, 2026 (HARD)** |
+| **G1: DUAL-ENTITY** | LLC formed + EIN + bank. Aspiration Tech email sent. Sponsors live. | 1 human session + 2 agent sessions | #9, #10 initiated | — |
+| **G2: EXTRACTED** | cvrsvs-honorvm state machine, dep validator, seed parser — all pass independent test suite. No ORGANVM imports. | 3-5 agent sessions (parallel: 1 per primitive) | #12 surface | — |
+| **G3: PUBLISHED** | `pip install cvrsvs-honorvm` works. Docs site live. WCAG AA. | 2 agent sessions | #2, #12, #14 | — |
+| **G4: PROVEN** | Example 3-repo ecosystem passes all governance checks. Engine works outside ORGANVM. | 2 agent sessions | #7, #11 | — |
+| **G5: SPECIFIED** | seed.yaml open specification published. publiccode.yml + Backstage adapters. | 2 agent sessions | #14 | — |
+| **G6: CITED** | arXiv paper submitted. Researcher profiles created. | 1 agent session + 1 human gate (review) | #14, #15 | — |
+| **G7: COMMUNITY** | 3+ external feedback. 3+ contributions. 2+ events held. | Ongoing — human-gated (requires other people) | #7, #11, #12 MET | — |
+| **G8: OPERATIONAL** | Soak test 30-day clean. Stranger test ≥80%. Runbooks validated. | Calendar-bound (30 days minimum) + 1 human gate (find participant) | #1, #2, #3, #4, #16, #17 MET | — |
+| **G9: REVENUE** | revenue_status: live. MRR ≥ operating costs. | Human-gated (invoice, ship product) | #9, #10 MET | — |
+| **G10: RECOGNIZED** | ≥1 grant awarded OR talk delivered OR adoption confirmed. Portfolio updated. | External-gated (reviewer decision) | #14, #15 MET | Grant cycles (6mo) |
+| **OMEGA** | G0-G10 all passed. 17/17. | — | **The system simply is.** | — |
+
+**Parallelism:** G0 is sequential (deadline). G1 and G2 are parallel. G3 depends on G2. G4 depends on G3. G5 is parallel with G4. G6 is parallel with G4/G5. G7 and G8 are ongoing. G9 depends on G1. G10 is externally gated.
+
+**Critical path:** G0 → G2 → G3 → G4 (extraction is the bottleneck). Everything else is parallel or externally gated. With agent superpowers, the extraction (G2) can run 3 parallel agents — one per primitive. The bottleneck is human review gates, not agent energy.
 
 ### The Return
 
