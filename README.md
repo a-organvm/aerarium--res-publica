@@ -2,7 +2,7 @@
 
 > *The Treasury of the Public Thing*
 
-ORGANVM's institutional wing — the legal, financial, and governance infrastructure that transforms a 117-repo open-source system into a fundable institution.
+ORGANVM's institutional wing — the legal, financial, and governance infrastructure that transforms a 126-repo open-source system into a fundable institution.
 
 ## What This Is
 
@@ -56,16 +56,30 @@ YOU
         └── Organ VII (Kerygma)    — Distribution
 ```
 
+## Cvrsvs Honorvm
+
+The extracted governance engine — the NLnet application's central deliverable. Named after the Roman *cursus honorum* (sequential order of public offices). ORGANVM orthography: V for U.
+
+- **Repo:** [meta-organvm/cvrsvs-honorvm](https://github.com/meta-organvm/cvrsvs-honorvm)
+- **PyPI:** `cvrsvs-honorvm` (not yet published)
+- **License:** Apache 2.0
+- **Status:** INCUBATOR — extraction from [organvm-engine](https://github.com/meta-organvm/organvm-engine) in progress
+- **R&D question:** Can formal governance be declaratively specified as a portable open standard?
+
 ## Active Deadlines
 
 | Date | Opportunity | Amount | Status |
 |------|-------------|--------|--------|
-| **2026-04-01** | NLnet NGI0 Commons | EUR 5K-50K | DRAFTING |
-| **2026-04-02** | Creative Capital 2027 | $15K-50K | DRAFTING |
+| **2026-04-01** | NLnet NGI0 Commons — Cvrsvs Honorvm | EUR 37,080 | **DRAFT COMPLETE** — human review + submit |
+| **2026-04-02** | Creative Capital 2027 | $15K-50K | BLOCKED (need work sample video) |
 | **2026-04-06** | Sovereign Tech Fellowship | Varies | RESEARCH |
 | **2026-04-12** | ZKM Rauschenberg | Funded | RESEARCH |
-| Rolling | Aspiration Tech | Unlocks all | READY |
+| Rolling | Aspiration Tech fiscal sponsor | Unlocks all | READY |
 | Rolling | Sloan Foundation LOI | $50K-$1M | READY |
+
+## Omega Closure
+
+The institutional wing advances 13 of 17 omega criteria. Current state: **4/17 MET**. Target: **17/17 by Q2 2027**. See `.claude/plans/2026-03-25-omega-closure-plan.md` for the full plan.
 
 ## Organ
 
