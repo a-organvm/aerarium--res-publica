@@ -1,0 +1,5 @@
+- [Cvrsvs Honorvm](project_cvrsvs_honorvm.md) — Extracted governance engine package name, PyPI identity, NLnet proposal framing
+- [NLnet scoring criteria](project_nlnet_scoring.md) — Adversarial review findings: what kills NLnet scores and how to fix
+- [Three-persona review pattern](feedback_adversarial_review.md) — Validated adversarial review workflow for high-stakes documents
+- [License contradiction](project_license_contradiction.md) — META repos MIT vs IP policy Apache 2.0, IRF-INST-017
+- [Energy not time](feedback_energy_not_time.md) — Measure in tokens/energy/gates, not hours/days. Only external deadlines are time-bound.
