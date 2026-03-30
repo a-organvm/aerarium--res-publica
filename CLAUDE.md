@@ -81,4 +81,4 @@ Each funder sees ORGANVM through a different lens:
 - **This is not a personal repo.** It governs ORGANVM-the-system, not a person's career. Personal job/consulting applications remain in `4444J99/application-pipeline/`.
 - **Research docs are canonical here** but also mirrored in `organvm-corpvs-testamentvm/docs/` for the historical record.
 - **IRF items** for this repo use the `IRF-INST-NNN` prefix (18 items as of S38).
-- **Deadlines are hard.** NLnet: April 1, 2026. Creative Capital: April 2, 2026.
+- **Deadlines are hard.** NLnet: April 1, 2026. ~~Creative Capital: April 2, 2026~~ — **DEFERRED** (S-CC-review, 2026-03-30). Funder-fit gate failed: CC funds sensory art, ORGANVM produces infrastructure. See GH#5, IRF-INST-002.

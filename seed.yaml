@@ -12,6 +12,7 @@ produces:
   - entity-formation-docs
   - institutional-strategy
   - ip-policy
+  - funder-fit-assessments
 
 consumes:
   - organvm-corpvs-testamentvm.registry
@@ -25,5 +26,6 @@ events:
     - system.irf.update
   publishes:
     - institutional.application.submitted
+    - institutional.application.deferred
     - institutional.entity.formed
     - institutional.funding.received
