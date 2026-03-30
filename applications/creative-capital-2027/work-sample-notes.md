@@ -30,8 +30,4 @@
 
 ## Caption (100 words / 750 characters)
 
-<!--
-  Title, materials used, date completed, short description.
--->
-
-[DRAFT]
+*Alchemical Synthesizer (Brahma Meta-Rack)*, 2024. SuperCollider (21,000 lines), Pure Data (12 patches), p5.js web visualization. A modular synthesis organism that absorbs and re-expresses sonic identities through parasitic-symbiotic contact. Rather than producing fixed compositions, the system generates a continuous metabolic process — audio signals enter, are decomposed into spectral components, recombined through alchemical transformation rules, and re-emitted as new sonic identities that retain traces of their sources. The p5.js visualization renders the system's internal state as a living organism whose morphology shifts with the sonic metabolism. The work established the core method that ORGANVM extends to institutional scale.
